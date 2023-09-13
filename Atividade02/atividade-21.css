@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgb(117, 117, 117);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.header .name {
+    font-size: 18px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    margin-top: 30px;
+    width: 200px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.menu-item {
+    padding: 10px;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.img-cerejeira {
+    width: 200px;
+
+}
+
+.mais {
+    text-align: center;
+    color: #fff;
+}
+
+.div-mais {
+    background-color: rgb(117, 117, 117);
+    width: 200px;
+    text-align: center;
+    padding: 5px 50px;
+    margin-top: auto;
+}
+
+.container-mais {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.voltar{
+    text-align: center;
+}
+.link-voltar{
+    color: rgb(77, 73, 73);
+}
