@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  width: 100%;
+  background-color: red;
+  border: 3px solid blue;
+}
+
+th {
+  background-color: red;
+}
+
+td {
+  text-align: center;
+  border: 3px solid blue;
+}
+
+.A1 {
+  width: 10%;
+  text-align: left;
+  background-color: yellow;
+}
+
+.A2 {
+  width: 40%;
+  height: 40px;
+  text-align: center;
+  vertical-align: bottom;
+  background-color: white;
+}
+
+.A3 {
+  width: 50%;
+  text-align: center;
+  vertical-align: top;
+  background-color: orange;
+}
+
+.A4 {
+  display: none;
+}
+
+.B1 {
+  display: none;
+}
+
+.B2 {
+  width: 40%;
+  height: 50px;
+  text-align: center;
+  background-color: orange;
+}
+
+.B3 {
+  display: none;
+}
+
+.B4 {
+  width: 30%;
+  text-align: center;
+  background-color: yellow;
+}
+
+.C1 {
+  width: 10%;
+  text-align: right;
+  background-color: orange;
+}
+
+.C2 {
+  display: none;
+}
+
+.C3 {
+  display: none;
+}
+
+.C4 {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <caption>Tabela Mesclada</caption>
+  <tr>
+    <th class="A1">A1</th>
+    <th class="A2">A2</th>
+    <th class="A3">A3</th>
+    <th class="A4" colspan="2"></th>
+  </tr>
+  <tr>
+    <td class="B1" rowspan="2"></td>
+    <td class="B2">B2</td>
+    <td class="B3" rowspan="2"></td>
+    <td class="B4">B4</td>
+  </tr>
+  <tr>
+    <td class="C1">C1</td>
+    <td class="C2"></td>
+    <td class="C3"></td>
+    <td class="C4" rowspan="2"></td>
+  </tr>
+</table>
+<a href="index.html">Voaltar</a>
+</body>
+</html>
